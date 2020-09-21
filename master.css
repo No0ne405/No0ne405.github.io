@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+*{
+    margin:0 auto;
+    font-family: Arial, Helvetica, Sans-serif;
+    color: whitesmoke;
+}
+body{
+  background-color: rgba(0,0,0,0.6);
+
+}
+h5 {
+  background-color: black;
+  padding: 5px;
+  width: 100%;
+  border-radius: 25px;
+
+  text-align: center;
+}
+
+hr{
+  margin: 0 auto 5px;
+   width: 90%;
+}
+
+img {
+  max-width: 100%;
+}
+a:hover{
+  color: #E65100;
+  font-size: 1.2em;
+}
+
+#navbar{
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    vertical-align: middle;
+}
+
+#main{
+  width: 76%;
+  background-image: url(cover.jpg);
+  background-size: cover;
+  padding-top: 120px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-bottom: 5px;
+}
+
+.nav-wrapper{
+  background-color: #121212;
+}
+
+#propic {
+  max-width: 200px;
+  border: 2px solid blue;
+  margin-top: 30px;
+  display: block;
+  border-radius: 75%;
+}
+
+
+
+.inlineCards {
+  vertical-align: middle;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px;
+
+}
+#info {
+  width: 34%;
+}
+.material-icons {
+  float:left;
+  margin: 2px;
+  margin-right: 20px;
+}
+
+.percent{
+  float: right;
+}
+
+#timeline{
+  width: 65%;
+  text-align: center;
+}
+
+#postDate{
+  margin-right: 70%;
+  text-decoration: underline;
+  font-size: small;
+  font-style: italic;
+}
+
+.bgcolor {
+  background-color: #3a3b3c;
+  border-radius: 15px;
+}
+
+.story {
+  background-color: black;
+  width: 31%;
+  margin: 9px;
+  border-radius: 10px;
+  text-align: center;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: top;
+
+}
+
+#interests{
+  text-align: center;
+}
+
+
+
+.alienface {
+  display: inline-block;
+  width: 15%;
+}
+
+#hashes {
+  display: inline-block;
+  vertical-align: top;
+  width: 60%;
+}
+
+
+
+.orangeHash {
+  font-weight: bold;
+  display: inline-block;
+  background-color: #ef6c00;
+  padding: 4px;
+  border-radius: 15px;
+}
+
+.greenHash {
+  font-weight: bold;
+  display: inline-block;
+  background-color: #00695c;
+  padding: 4px;
+  border-radius: 15px;
+
+
+}
+
+.redHash {
+  font-weight: bold;
+  display: inline-block;
+  background-color: #b71c1c;
+  padding: 4px;
+  border-radius: 15px;
+
+
+}
+
+
+
+#footer {
+  background-color: #121212;
+  text-align: center;
+}
+.links {
+  display: inline-block;
+  vertical-align: top;
+  width: 24%;
+}
+
+
+  .fa:hover {
+    opacity: 0.5;
+  }
+
+  /* Twitter */
+  .fa-twitter , .fa-facebook , .fa-google {
+    color: white;
+  }
+
+
+
+#alien{
+  border-radius: 50px;
+}
+
+
+
+@media screen and (max-width: 50em) {
+    .story {
+    width: 95%;
+  }
+  #info, #timeline {
+    width: 100%;
+  }
+  #main {
+    width: 100%;
+  }
+  #leftLogo  {
+      position: static;
+      display: block;
+  }
+  #rightLogo {
+      display: none;
+      }
+
+  #hashes {
+    width: 80%;
+  }
+  .links {
+    width: 45%;
+  }
+
+
+}
