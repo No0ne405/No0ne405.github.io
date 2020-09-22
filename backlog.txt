@@ -1,0 +1,21 @@
+BACKLOG{
+
+	#1 wat voor design ga ik doen "Facebook"
+	#2 begin met HTML en een externe stylesheet 
+	#3 gebruik maken van MaterlizeCss
+	#4 zorg dat het is een mobile reponsive design
+}
+
+UserStory :
+
+	1-de gebruiker wordt geinformeerd over {
+		info over mezelf
+		wat vind ik leuk 
+		manieren om mij te berieken 
+	}
+
+	2-er moet minimaal 6 links;
+
+
+
+
